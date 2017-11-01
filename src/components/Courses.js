@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink, Route, Redirect } from "react-router-dom";
-import Course from "./courses/Course";
 import CSS from "./courses/CSS";
 import HTML from "./courses/HTML";
 import Javascript from "./courses/JavaScript";
