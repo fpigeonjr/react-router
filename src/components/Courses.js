@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Route } from "react-router-dom";
+import { NavLink, Route, Redirect } from "react-router-dom";
 import Course from "./courses/Course";
 import CSS from "./courses/CSS";
 import HTML from "./courses/HTML";
@@ -25,13 +25,7 @@ const Courses = () => (
     <Route
       exact
       path="/courses"
-      render={() => (
-        <Course
-          img="http://via.placeholder.com/350x150"
-          title="Courses"
-          desc="lorem ipsum"
-        />
-      )}
+      render={() => <Redirect to="/courses/html" />}
     />
     <Route path="/courses/html" component={HTML} />
     <Route path="/courses/css" component={CSS} />
