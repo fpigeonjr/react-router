@@ -1,4 +1,4 @@
-# React_router from teamtreehouse
+# React-router from teamtreehouse
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
